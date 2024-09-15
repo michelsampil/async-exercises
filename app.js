@@ -42,6 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
     isPlaying = !isPlaying;
   });
 });
+
 // END FOR FUN CODE
 
 // TODO, El ejercicio empieza aca 👇
@@ -58,14 +59,14 @@ document.addEventListener("DOMContentLoaded", function () {
 // 2 - annoyingMessage() hacer una funcion que
 // cada 1 minuto aparezca un alert con el mensaje  "Get a Premium Account 🤩"
 
-// 4 - Hacer intermitente el mensaje de "Please, insert coin 🪙..."
-// tip: utilizar las clases de css fadeIn fadeOut
+// 3 - Hacer intermitente el mensaje de "Please, insert coin 🪙..."
+// tip: utilizar las clases de css .up .down que se encuentran en la hoja de estilos
 
-// 5 - Implementar la funcion fetchScores()
+// 4 - Implementar la funcion fetchScores()
 // traer los datos de la tabla de posiciones
 // utilizando fetch(), puede ser desde un json
 // server o de alguna fake api como mocki.io.
 // se provee de un db.json de ejemplo
 
-// 6 - Actualizar constantemente el scoreboard
+// 5 - Actualizar constantemente el scoreboard
 // de la pagina utilizando polling.
